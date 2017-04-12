@@ -1,0 +1,11 @@
+init:
+  - name: tnpm-install
+
+dev:
+  - name: $local
+    location: ./lib/index.js
+
+publish:
+  - name: shell
+    script:
+      - tnpm pu
