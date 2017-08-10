@@ -13,4 +13,6 @@ test:
 #不放到 aliyun group 下也不会发到 CND
 #只是中间件的版本管理是基于 tag 的，恰好使用
 publish:
-  - name: alicdn-publish
+  - name: shell
+    script:
+      - tnpm pu
