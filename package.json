@@ -1,7 +1,7 @@
 {
-  "name": "@ali/dn-template-middleware",
-  "version": "1.0.2",
-  "description": "",
+  "name": "dn-template-middleware",
+  "version": "1.0.4",
+  "description": "Dawn middleware project template",
   "main": "./lib/index.js",
   "scripts": {
     "test": "dn test"
